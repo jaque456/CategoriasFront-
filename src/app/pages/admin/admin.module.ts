@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { AdminRoutingModule } from './admin-routing.module';
 import { AdminComponent } from './admin.component';
 import { ModalFormularioComponent } from './categorias/modal-formulario/modal-formulario.component';
+import { MaterialModule } from 'src/app/material.modules';
 
 
 @NgModule({
@@ -13,7 +13,8 @@ import { ModalFormularioComponent } from './categorias/modal-formulario/modal-fo
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    MaterialModule
   ]
 })
 export class AdminModule { }
