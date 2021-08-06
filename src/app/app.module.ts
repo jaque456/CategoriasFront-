@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
+import { SidebarModule } from './shared/components/sidebar/sidebar.module';
+import { LoadingComponent } from './shared/components/loading/loading.component';
+import { DialogoConfirmacionComponent } from './shared/component/dialogo-confirmacion/dialogo-confirmacion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    LoadingComponent,
+    DialogoConfirmacionComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
