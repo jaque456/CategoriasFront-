@@ -9,6 +9,7 @@ import { UtilsService } from './shared/services/util.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+<<<<<<< HEAD
 export class AppComponent implements OnInit, OnDestroy {
   private destroy$ = new Subject<any>();
   title = 'tipo-categorias-app';
@@ -27,3 +28,8 @@ export class AppComponent implements OnInit, OnDestroy {
     this.destroy$.complete();
   }
 }
+=======
+export class AppComponent {
+  title = 'Registrar Categorias';
+}
+>>>>>>> 14ca033895ba6a5984a5d37d1e7becd4bf150a76

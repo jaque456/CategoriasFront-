@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { CategoriasRoutingModule } from './categorias-routing.module';
 import { CategoriasComponent } from './categorias.component';
+import { MaterialModule } from 'src/app/material.modules';
+import { CategoriasRoutingModule } from './categorias-routing.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,8 @@ import { CategoriasComponent } from './categorias.component';
   ],
   imports: [
     CommonModule,
-    CategoriasRoutingModule
+    CategoriasRoutingModule,
+    MaterialModule
   ]
 })
-export class CategoriasModule { }
+export class MascotasModule { }
